@@ -2,19 +2,60 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, sans-serif;
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
 
 /* tag selector */
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
+    
 }
 /* id selector */
 #login{
-    color: aqua;
+    color: ;
+    text-align: center;
 }
 
 /* class selector */
 .forminput{
     padding: 10px 20px;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
 }
+
+#loginform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ button{
+    margin-top: 10px;
+    padding: 10px;
+    max-width: 300px;
+    border-radius: 8px;
+    background-color: aquamarine;
+    color: blue;
+ }
+ #label1{
+    margin-top: 10px;
+ }
+ 
+ #label2{
+    margin-top: 10px;
+ }

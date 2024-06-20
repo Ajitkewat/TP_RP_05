@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="./assets/style.css"/>
 </head>
 <body>
-    <form action="index.php" method="get">
-        <h1 id ="login">login</h1>
-        <label>username</label>
-        <input type="text" placeholder="enter your username" class="forminput"/>
-        <label>password</label>
-        <input type="password" placeholder="enter your passsword" class="forminput"/>
-        <button>submit</button>
+    <form action="index.php" method="get" id="loginform">
+        <h1 id="login">Login</h1>
+    
+        <label for="username" id="label1">username:</label> 
+        <input type="text" id="username" placeholder="enter your username" class="forminput"/>
+    
+        <label for="password" id="label2">password:</label>
+        <input type="password" id="password" placeholder="enter your password" class="forminput"/>
+    
+        <button>Login</button>
     </form>
     
 </body>
