@@ -1,61 +1,117 @@
-/* global selector */
-*{
+/* Global Selector */
+* {
+    /* CSS Resetting */
+    margin: 0;
     padding: 0;
-    margin: 0;
-    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+
+    /* Font  */
+    font-family:Arial, sans-serif;
+    list-style: none;
+
 }
 
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+#login {
+    color: #402E7A;
 }
 
 
+/* Login */
 
-
-/* tag selector */
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-/* id selector */
-#login{
-    color: ;
-    text-align: center;
-}
-
-/* class selector */
-.forminput{
-    padding: 10px 20px;
-    max-width: 300px;
-    text-align: center;
-    border-radius: 8px;
-    background-color: white;
-}
-
-#loginform{
+.login {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
- button{
-    margin-top: 10px;
+
+
+.login-heading{
+    padding: 20px;
+}
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form-input {
+    padding: 10px 20px;
+}
+
+.login-button {
+    padding: 10px 20px;
+    background-color: #4B70F5;
+    border: none;
+    color: #FFF;
+}
+/* End Login */
+
+/* Navbar  */
+.nav {
+    display: flex;
+    background-color: #402E7A;
+    justify-content: space-between;
+    color: white;
+}
+
+.nav > div {
     padding: 10px;
-    max-width: 300px;
-    border-radius: 8px;
-    background-color: aquamarine;
-    color: blue;
- }
- #label1{
+}
+
+
+.nav > div > ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav > div > ul > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Navbar End */
+
+/* Main */
+.main{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+.main>div>h2{
+    font-size:50px;
+    max-width: 60%;
+    color:#6EDBFF;
+    margin-top: 30px;
+}
+
+.main>div>p{
+    font-size: 20px;
+    max-width: 60%;
+    margin-top: 20px;
+}
+
+.main>div>button{
+    padding: 10px;
+    margin: 10px;
     margin-top: 10px;
- }
- 
- #label2{
-    margin-top: 10px;
- }
+    align-items: center;
+    height: 50px;
+    width:150px;
+    border-radius: 5px;
+    background-color:#FF642D;
+}
+
+/* Main End */
+
+/* userinput form */
+.myform>input{
+    padding:10px;
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
