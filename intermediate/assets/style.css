@@ -1,3 +1,9 @@
+:root{
+    --primary: #5d5674;
+    --secondary:blue;
+    
+}
+
 /* Global Selector */
 * {
     /* CSS Resetting */
@@ -56,6 +62,11 @@
     background-color: #402E7A;
     justify-content: space-between;
     color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
 }
 
 .nav > div {
@@ -111,7 +122,21 @@
 /* userinput form */
 .myform>input{
     padding:10px;
-    margin: 10px;
+    margin: 20px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 50px
+
+}
+.myform{
+    /* padding: 0px 100px; */
+    background-color:var(--primary);
+    margin-top: 100px;
+    text-align: center;
+    
+    
+}
+.divform{
+    padding: 0px 120px;
+    align-items: center;
+    
 }
